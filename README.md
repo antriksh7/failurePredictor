@@ -1,20 +1,22 @@
 Student Performance Prediction
 
-This project uses an AI model trained on data from 343 students to predict whether a student is likely to fail based on various personal characteristics such as age, sex, study time, the time they spend outside, and the time they waste on the internet.
+This project uses an AI model trained on data from 343 students to predict whether a student is likely to fail based on various personal and academic characteristics.
 Features
-Sex: The gender of the student.
-Age: The age of the student.
-Family Size: The size of the student's family.
-Travel Time: The time it takes for the student to travel to school.
-Study Time: The amount of time the student spends studying.
-Past Failures: The number of past class failures.
-Internet Usage: The amount of time the student spends on the internet.
-Free Time: The amount of free time the student has after school.
-Social Activities: The amount of time the student spends going out with friends.
-Alcohol Consumption: The student's alcohol consumption during weekdays (Dalc).
-Health: The current health status of the student.
-Absences: The number of school absences
-    
+
+The model considers the following factors:
+
+    Sex: The gender of the student.
+    Age: The age of the student.
+    Family Size: The size of the student's family.
+    Travel Time: The time it takes for the student to travel to school.
+    Study Time: The amount of time the student spends studying.
+    Past Failures: The number of past class failures.
+    Internet Usage: The amount of time the student spends on the internet.
+    Free Time: The amount of free time the student has after school.
+    Social Activities: The amount of time the student spends going out with friends.
+    Alcohol Consumption: The student's alcohol consumption during weekdays (Dalc).
+    Health: The current health status of the student.
+    Absences: The number of school absences.
 
 Libraries Used
 
@@ -28,7 +30,7 @@ This project utilizes several Python libraries for data processing, analysis, an
 
 Data Visualization
 
-To enhance the understanding of the data, I created various graphs using the Matplotlib library. These visualizations help in comprehending the patterns and relationships within the data more clearly.
+To enhance the understanding of the data, various graphs were created using the Matplotlib library. These visualizations help in comprehending the patterns and relationships within the data more clearly.
 Usage
 
     Clone the repository:
