@@ -2,12 +2,18 @@ Student Performance Prediction
 
 This project uses an AI model trained on data from 343 students to predict whether a student is likely to fail based on various personal characteristics such as age, sex, study time, the time they spend outside, and the time they waste on the internet.
 Features
-
-    Age: The age of the student.
-    Sex: The gender of the student.
-    Study Time: The amount of time the student spends studying.
-    Time Spent Outside: The amount of time the student spends outdoors.
-    Time Wasted on Internet: The amount of time the student spends on non-productive internet activities.
+Sex: The gender of the student.
+Age: The age of the student.
+Family Size: The size of the student's family.
+Travel Time: The time it takes for the student to travel to school.
+Study Time: The amount of time the student spends studying.
+Past Failures: The number of past class failures.
+Internet Usage: The amount of time the student spends on the internet.
+Free Time: The amount of free time the student has after school.
+Social Activities: The amount of time the student spends going out with friends.
+Alcohol Consumption: The student's alcohol consumption during weekdays (Dalc).
+Health: The current health status of the student.
+Absences: The number of school absences
     
 
 Libraries Used
